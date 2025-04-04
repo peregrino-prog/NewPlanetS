@@ -3,7 +3,7 @@
 
 scenes = {
     0: {
-        "smullyan": "Chegámos à Ilha de Bahava! Olha - estão ali dois habitantes - uma princesa e um príncipe.",
+        "smullyan": "Bem vindos à Ilha de Bahava",
         "empress": "",
         "princess": "Bem-vindos à Ilha de Bahava!",
         "prince": "Bem-vindos!",
@@ -25,15 +25,15 @@ scenes = {
     2: {
         "smullyan": "Cavaleiros dizem sempre a verdade. Escudeiros mentem sempre. Normais dizem a verdade às vezes e mentem outras vezes.",
         "empress": "",
-        "princess": "",
-        "prince": "",
+        "princess": "Olá Sr. A",
+        "prince": "olá Sra. A",
         "smullyanImg": smullyanImgs["smullyan-normal"],
         "empressImg": "",
         "princessImg": princess1Imgs["princess-side-normal"],
         "princeImg": prince1Imgs["prince-side-smiling"]
     },
     3: {
-        "smullyan": "Uma antiga imperatriz de Bahava, num bizarro momento, assinou um decreto em que... Oh!",
+        "smullyan": "Uma antiga imperatriz de Bahava, num bizarro momento, assinou um decreto",
         "empress": "Cavaleiros só podem casar com escudeiros, e escudeiros com cavaleiros. Normais só podem casar com normais.",
         "princess": "",
         "prince": "",
@@ -43,10 +43,10 @@ scenes = {
         "princeImg": prince1Imgs["prince-side-smiling"]
     },
     4: {
-        "smullyan": "Entre a princesa e o príncipe, um deles poderá mentir, ou ambos, ou nenhum.",
+        "smullyan": "Entre a Sr. A e o Sr. A, um deles poderá mentir, ou ambos, ou nenhum.",
         "empress": "",
-        "princess": "A lei matrimonial é sagrada!",
-        "prince": "Escudeiros só casam com cavaleiros!",
+        "princess": "",
+        "prince": "",
         "smullyanImg": smullyanImgs["smullyan-normal"],
         "empressImg": "",
         "princessImg": princess1Imgs["princess-side-pointing"],
@@ -56,7 +56,7 @@ scenes = {
         "smullyan": "",
         "empress": "",
         "princess": "",
-        "prince": "Tu não és normal!",
+        "prince": "Não és normal!",
         "smullyanImg": smullyanImgs["smullyan-normal-side-eye"],
         "empressImg": "",
         "princessImg": princess1Imgs["princess-side-excited"],
@@ -65,7 +65,7 @@ scenes = {
     6: {
         "smullyan": "",
         "empress": "",
-        "princess": "Tu é que não és normal!",
+        "princess": "Não és normal!",
         "prince": "",
         "smullyanImg": smullyanImgs["smullyan-serious-side-eye"],
         "empressImg": "",
@@ -73,7 +73,7 @@ scenes = {
         "princeImg": prince1Imgs["prince-side-smiling"]
     },
     7: {
-        "smullyan": "Será a princesa escudeira, cavaleira ou normal? E o príncipe? Arrasta os blocos com o rato e descobre a verdade. Usa o rascunho à direita como ajuda.",
+        "smullyan": "O que são eles?",
         "empress": "",
         "princess": "",
         "prince": "",
