@@ -14,7 +14,7 @@ smullyanImgs = {
 
 princess1Imgs = {
     "princess-waving":  princessImgPath + "girl1.png",
-    "princess-side-excited":  princessImgPath + "girl4.png",
+    "princess-side-excited":  princessImgPath + "girl3.png",
     "princess-side-pointing":  princessImgPath + "girl5.png",
     "princess-side-normal":  princessImgPath + "girl2.png"
 }
