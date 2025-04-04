@@ -31,7 +31,7 @@ mapContainer.addEventListener("mousemove", function(event) {
 
 const mapRedirectsDict = {
     '': '',
-    'ilha-do-bahava': 'ilha_bahava.html',
+    'ilha-do-bahava': 'scenario1.html',
     'transilvania': 'ilha_transilvania.html',
     'ilha-dos-cavaleiros': 'ilha_cavaleiros.html',
     'subterranea': 'ilha_cavaleiros.html',
