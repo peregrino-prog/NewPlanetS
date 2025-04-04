@@ -1,0 +1,11 @@
+"Chegámos à Ilha de Bahava! Olha - estão ali dois habitantes - uma princesa e um príncipe.","../../assets/images/smullyan/smullyan-happy.svg"
+"",""
+"Bem-vindos à Ilha de Bahava!","../../assets/images/ilhaBahava/scenario1/girl1.png"
+"Bem-vindos!","../../assets/images/ilhaBahava/scenario1/boy1.png"
+
+"A ilha de Bahava é civilizada: tanto os homens como as mulheres podem ser cavaleiros, escudeiros ou normais.", "../../assets/images/smullyan/smullyan-normal-presenting.svg"
+"",""
+"","../../assets/images/ilhaBahava/scenario1/girl6.png"
+"","../../assets/images/ilhaBahava/scenario1/boy2.png"
+
+"Cavaleiros dizem sempre a verdade. Escudeiros mentem sempre. Normais dizem a verdade às vezes e mentem outras vezes.", "../../assets/images/smullyan/smullyan-normal.svg"

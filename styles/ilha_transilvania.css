@@ -1,0 +1,79 @@
+body {
+    background-color: #1c1c1c;
+    font-family: Georgia, serif;
+    background-image: url('../assets/images/transilvania.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container {
+    margin-top: 20px;
+    background: rgba(244, 247, 243, 0.726);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.texto {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #0a0a0a;
+}
+
+.texto strong {
+    color: #050505;
+}
+
+.tipo.humano {
+    color: #210af5;
+    font-weight: bold;
+}
+
+.tipo.vampiro {
+    color: #ff0000;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ff66ff;
+}
+
+.tipo.sao {
+    color: #3700ff;
+    font-weight: bold;
+}
+
+.tipo.doido {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+img {
+    width: 450px !important;
+    max-width: 50% !important;
+    height: fit-content;
+    margin-top: 0px;
+    
+}
+
+
+.botoes {
+    text-align: end;
+    margin-top: 20px;
+}
+
+.voltar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.voltar:hover {
+    background-color: #ff3333;
+}

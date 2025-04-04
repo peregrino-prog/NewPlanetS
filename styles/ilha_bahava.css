@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../assets/images/ilhaBahava/background.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    min-height: 100vh;
+}
+
+.buttons-section {
+    padding:20px;
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+}
+
+.button {
+    background: url('../assets/images/ilhaBahava/button.png') no-repeat;
+    width: 300px;
+    height: 70px;
+    background-size: 300px 70px;
+    display: flex;
+    align-items: center;     /* vertical alignment */
+    justify-content: center; /* optional: horizontal centering */
+    color: white;
+    font-family: "Charm", cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.parent {
+    min-height: 90%;
+    max-height: 90%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 90%;
+    grid-row-gap: 0px;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.parent div img {
+    max-height: 80%;
+    min-height: 80%;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 1 / 4 / 2 / 5; }
+
+
+.div1, .div2, .div3, .div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+
+/* The speech bubble */
+.speech-bubble {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    min-height: 20%;
+    max-height: 20%;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: "Architects Daughter", cursive;
+    font-size: 20;
+    word-wrap: break-word;
+    text-align: center;
+    align-items: center;
+}
+
+.speech-bubble-empty{
+    height: 20%;
+    min-height: 20%;
+    max-height: 20%;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+
+.speech-bubble::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent; 
+}
+
+.knowledge-base {
+    background: url('../assets/images/papirus.svg') no-repeat;
+    width: 65%;
+    min-height: 90%;
+    display: flex;
+    /*align-items: center;   */  /* vertical alignment */
+    /*justify-content: center; *//* optional: horizontal centering */
+    font-family: "Charm", cursive;
+    font-size: 16px;
+    padding:10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.knowledge-base-content{
+    min-height: 100%;
+    min-width: 100%;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    padding-right: 5px;
+}
+
+.knowledge-base p{
+    width: 100%;
+    margin:0
+}
+
+.knowledge-base div table {
+    width: 90%;
+    table-layout: fixed;
+}
+
+#scenario1-truth-table input {
+    min-width: none;
+    width:100%;
+    background-color: transparent;
+    border: none;
+    min-height: 100%;
+}
+
+
+.scenario1-princess {
+    color: rgb(209, 117, 195)
+}
+
+.scenario1-prince {
+    color: rgb(59, 139, 214)
+}
+
+
+/* The scrollbar “track”: the area the thumb (scroll handle) slides on */
+::-webkit-scrollbar-track {
+    background-color: transparent; /* light gray track */
+}
+
+/* The scrollbar “thumb”: the draggable element */
+::-webkit-scrollbar-thumb {
+    background-color: transparent;  /* main thumb color */
+    border-radius: 4px;        /* round edges for a modern look */
+}
+
+/* Optional: hovered thumb color for interactivity */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(214, 189, 144);  /* main thumb color */
+}
+
+/* The scrollbar “corner” (bottom-right corner in case of horizontal + vertical) */
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+/* Set the width (vertical scrollbar) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Zone containing the 3 "infinite" source items */
+.draggable-zone {
+    border: 2px dashed #aaa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  /* Each draggable "source" block */
+  .draggable {
+    width: 200px;;
+    height: 30px;
+    margin: 5px;
+    background-color: rgb(49, 68, 73);
+    color: white;
+    text-align: center;
+    cursor: move;
+    user-select: none; /* prevents text selection on drag */
+  }
+
+.drop-zone {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    width: 200px;;
+    height: 30px;
+    font-family: "Charm", cursive;
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.align-vertical-end {
+    display: flex; 
+    flex-direction: column; 
+    justify-items: flex-end;
+    height: 20%;
+}
+
+.princess{
+    background-color: rgba(209, 117, 195, 0.7);
+}
+
+.prince{
+    background-color: rgba(59, 139, 214, 0.7);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.princess-drop-zone-div, .prince-drop-zone-div {
+    height: 20%;
+    min-height: 20%;
+    max-height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+  

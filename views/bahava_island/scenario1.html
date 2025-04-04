@@ -1,0 +1,121 @@
+<head>
+    <title>Ilha de Bahava</title>
+    <link rel="stylesheet" href="../../styles/ilha_bahava.css">
+</head>
+
+<body>
+    <div class="buttons-section">
+
+        <div class="button" onclick="window.location.href = '../index.html'">Voltar ao mapa</div>
+        
+        <div class="buttons-sub-section" style="display: flex; flex-direction: row;">
+            <div class="button">◀ Anterior</div>
+            <div class="button">Próximo ▶</div>
+        </div>
+        
+    </div>
+    <div class="parent">
+        <div class="div1"></div>
+        <div class="div2">
+
+            <div class="knowledge-base keep hidden">
+                <div class="knowledge-base-content">
+                    Base de Conhecimento
+                    <p>Tanto os homens como as mulheres podem ser cavaleiros, escudeiros ou normais. </p>
+                    <p><b>Cavaleiros</b> dizem sempre a <b style="color:rgb(34, 161, 51)">verdade</b></p>
+                    <p><b>Escudeiros</b> <b style="color:rgb(161, 34, 34)">mentem</b> sempre.</p>
+                    <p><b>Normais</b> dizem a <b style="color:rgb(34, 161, 51)">verdade</b> às vezes e <b style="color:rgb(161, 34, 34)">mentem</b> outras vezes.</p>
+                    <p>Cavaleiros só podem casar com escudeiros, e escudeiros com cavaleiros.</p>
+                    <p>Normais só podem casar com normais.</p>
+                    <br>
+                    Diálogo
+                    <p><a class="scenario1-princess">Princesa:</a> <i>A lei matrimonial é sagrada!</i></p>
+                    <p><a class="scenario1-prince">Príncipe:</a> <i>Normais só podem casar com normais.</i></p>
+                    <p><a class="scenario1-prince">Príncipe:</a> <i>Tu não és normal!</i></p>
+                    <p><a class="scenario1-princess">Princesa:</a> <i>Tu é que não és normal!</i></p>
+                    <br>
+                    Tabela de verdade
+                    <div style="display: flex; flex-direction: column;">
+
+                        <table id="scenario1-truth-table" border="1">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th><a class="scenario1-prince">Príncipe:</a><br/>Cavaleiro</th>
+                                    <th><a class="scenario1-prince">Príncipe:</a><br/>Escudeiro</th>
+                                    <th><a class="scenario1-prince">Príncipe:</a><br/>Normal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- F: Cavaleiro -->
+                                <tr>
+                                    <th><a class="scenario1-princess">Princesa:</a><br/>Cavaleiro</th>
+                                    <td>
+                                        <input type="text" placeholder="V/F">
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="V/F">
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="V/F">
+                                    </td>
+                                </tr>
+                                <!-- F: Escudeiro -->
+                                <tr>
+                                    <th><a class="scenario1-princess">Princesa:</a><br/>Escudeiro</th>
+                                    <td>
+                                        <input type="text" placeholder="V/F">
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="V/F"> 
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="V/F">
+                                    </td>
+                                </tr>
+                                <!-- F: Normal -->
+                                <tr>
+                                    <th><a class="scenario1-princess">Princesa:</a><br/>Normal</th>
+                                    <td>
+                                        <input type="text" placeholder="V/F">
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="V/F">
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="V/F">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <br>
+                        <div class="draggable-zone">
+                            <div class="draggable" draggable="true">Escudeiro(a)</div>
+                            <div class="draggable" draggable="true">Cavaleiro(a)</div>
+                            <div class="draggable" draggable="true">Normal</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="div3">
+            <div class="keep hidden princess-drop-zone-div">
+                <div class="drop-zone princess" data-dropzone="1">
+                    Arrasta aqui
+                </div>
+            </div>
+        </div>
+        <div class="div4">
+            <div class="keep hidden prince-drop-zone-div">
+                <div class="drop-zone prince" data-dropzone="2">
+                    Arrasta aqui
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../scripts/constants.js"></script>
+    <script src="../../scripts/bahava_island/scenario1.js"></script>
+</body>

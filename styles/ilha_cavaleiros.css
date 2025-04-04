@@ -1,0 +1,68 @@
+body {
+    /*text-align: left;*/
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/images/ilhaCavaleiros/ilhaDosCavaleiros.png'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.39); 
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    /*text-align: center; */
+}
+.texto {
+    text-align:center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.texto strong {
+    color: black;
+}
+.cavaleiros {
+    color: red;
+    font-weight: bold;
+}
+.escudeiros {
+    color: blue;
+    font-weight: bold;
+}
+.normais {
+    color: green;
+    font-weight: bold;
+}
+img {
+    width: 400px !important; 
+     
+    height: auto;
+    margin-top: 20px;
+}
+/*img {
+    width: 300px;
+    margin-top: 20px;
+}
+    */
+
+.botoes {
+        text-align: end;
+        margin-top: 20px;
+    }
+    
+.voltar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.voltar:hover {
+    background-color: #b30027;
+}
